@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ClientApp" t="Include">
+        <e p="boot.ts" t="Include" />
+        <e p="components" t="Include">
+          <e p="app" t="Include">
+            <e p="app.ts" t="Include" />
+            <e p="app.vue.html" t="Include" />
+          </e>
+          <e p="counter" t="Include">
+            <e p="counter.ts" t="Include" />
+            <e p="counter.vue.html" t="Include" />
+          </e>
+          <e p="fetchdata" t="Include">
+            <e p="fetchdata.ts" t="Include" />
+            <e p="fetchdata.vue.html" t="Include" />
+          </e>
+          <e p="home" t="Include">
+            <e p="home.vue.html" t="Include" />
+          </e>
+          <e p="navmenu" t="Include">
+            <e p="navmenu.css" t="Include" />
+            <e p="navmenu.vue.html" t="Include" />
+          </e>
+        </e>
+        <e p="css" t="Include">
+          <e p="site.css" t="Include" />
+        </e>
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="HomeController.cs" t="Include" />
+        <e p="SampleDataController.cs" t="Include" />
+      </e>
+      <e p="GRTHabitation.csproj" t="IncludeRecursive" />
+      <e p="node_modules/@types" t="IncludeRecursive">
+        <e p="webpack-env" t="IncludeRecursive" />
+      </e>
+      <e p="node_modules/aspnet-webpack" t="IncludeRecursive" />
+      <e p="node_modules/awesome-typescript-loader" t="IncludeRecursive" />
+      <e p="node_modules/bootstrap" t="IncludeRecursive" />
+      <e p="node_modules/css-loader" t="IncludeRecursive" />
+      <e p="node_modules/es6-promise" t="IncludeRecursive" />
+      <e p="node_modules/event-source-polyfill" t="IncludeRecursive" />
+      <e p="node_modules/extract-text-webpack-plugin" t="IncludeRecursive" />
+      <e p="node_modules/file-loader" t="IncludeRecursive" />
+      <e p="node_modules/isomorphic-fetch" t="IncludeRecursive" />
+      <e p="node_modules/jquery" t="IncludeRecursive" />
+      <e p="node_modules/reflect-metadata" t="IncludeRecursive" />
+      <e p="node_modules/style-loader" t="IncludeRecursive" />
+      <e p="node_modules/url-loader" t="IncludeRecursive" />
+      <e p="node_modules/vue" t="IncludeRecursive" />
+      <e p="node_modules/vue-class-component" t="IncludeRecursive" />
+      <e p="node_modules/vue-loader" t="IncludeRecursive" />
+      <e p="node_modules/vue-property-decorator" t="IncludeRecursive" />
+      <e p="node_modules/vue-router" t="IncludeRecursive" />
+      <e p="node_modules/vue-template-compiler" t="IncludeRecursive" />
+      <e p="node_modules/webpack" t="IncludeRecursive" />
+      <e p="node_modules/webpack-hot-middleware" t="IncludeRecursive" />
+      <e p="npm-shrinkwrap.json" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.0" t="Include">
+            <e p="GRTHabitation.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="package.json" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Startup.cs" t="Include" />
+      <e p="tsconfig.json" t="Include" />
+      <e p="Views" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="_ViewStart.cshtml" t="Include" />
+        <e p="home" t="Include">
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="_Layout.cshtml" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+        </e>
+      </e>
+      <e p="webpack.config.js" t="Include" />
+      <e p="webpack.config.vendor.js" t="Include" />
+      <e p="wwwroot" t="Include">
+        <e p="favicon.ico" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+  </component>
+</project>
