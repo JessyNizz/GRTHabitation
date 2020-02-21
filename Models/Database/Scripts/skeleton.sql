@@ -67,9 +67,25 @@ CREATE TABLE "Twinning" (
 CREATE TABLE "Qualification" (
     "Id" SERIAL PRIMARY KEY,
     "HousingId" INTEGER NOT NULL REFERENCES "Housing"("Id"),
-    ""    
+    "HaveMoldTraces" BOOLEAN NOT NULL DEFAULT FALSE,
+    "StairSafety" pg_enum(1, 2, 3, 4, 5) NOT NULL,
+    "PeronSafety" pg_enum(1, 2, 3, 4, 5) NOT NULL,
+    "LightningSafety" pg_enum(1, 2, 3, 4, 5) NOT NULL,
+    "DetectorSafety" pg_enum(1, 2, 3, 4, 5) NOT NULL,
+    "Cleanliness" pg_enum(1, 2, 3, 4, 5) NOT NULL,
+    "WindowsQuality" pg_enum(1, 2, 3, 4, 5) NOT NULL,
+    "DoorsQuality" pg_enum(1, 2, 3, 4, 5) NOT NULL,
+    "FittingsQuality" pg_enum(1, 2, 3, 4, 5) NOT NULL,
+    "ToiletQuality" pg_enum(1, 2, 3, 4, 5) NOT NULL,
+    "BathShowerQuality" pg_enum(1, 2, 3, 4, 5) NOT NULL,
+    "GeneralMaintenance" pg_enum(1, 2, 3, 4, 5) NOT NULL,
+    "PestProblem" BOOLEAN NOT NULL DEFAULT FALSE,
+    "FinalScore" SMALLINT
 );
 
 CREATE TABLE "Image" (
-    "" SERIAL PRIMARY KEY    
+    "Id" SERIAL PRIMARY KEY,
+    "QualificationId" INTEGER NOT NULL REFERENCES "Qualification"("Id"),
+    "Note" CHAR(50) NULL,
+    "Path" CHAR(254) NOT NULL
 );
