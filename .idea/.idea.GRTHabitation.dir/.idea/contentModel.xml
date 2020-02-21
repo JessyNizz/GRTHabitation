@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_.19.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
@@ -36,6 +38,10 @@
       <e p="Controllers" t="Include">
         <e p="HomeController.cs" t="Include" />
         <e p="SampleDataController.cs" t="Include" />
+      </e>
+      <e p="document" t="Include">
+        <e p="doc_project.txt" t="Include" />
+        <e p="habitationTP.mdj" t="Include" />
       </e>
       <e p="GRTHabitation.csproj" t="IncludeRecursive" />
       <e p="node_modules/@types" t="IncludeRecursive">
@@ -89,10 +95,16 @@
       <e p="webpack.config.js" t="Include" />
       <e p="webpack.config.vendor.js" t="Include" />
       <e p="wwwroot" t="Include">
+        <e p="dist" t="Include">
+          <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
+          <e p="main.js" t="Include" />
+          <e p="main.js.map" t="Include" />
+          <e p="vendor-manifest.json" t="Include" />
+          <e p="vendor.css" t="Include" />
+          <e p="vendor.js" t="Include" />
+        </e>
         <e p="favicon.ico" t="Include" />
       </e>
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_.19.00" t="ExcludeRecursive" />
   </component>
 </project>
