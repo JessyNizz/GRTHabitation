@@ -37,7 +37,25 @@
         <e p="HomeController.cs" t="Include" />
         <e p="SampleDataController.cs" t="Include" />
       </e>
+      <e p="Docker" t="Include">
+        <e p="docker-compose.yml" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="start_db.sh" t="Include" />
+          <e p="stop_db.sh" t="Include" />
+        </e>
+      </e>
       <e p="GRTHabitation.csproj" t="IncludeRecursive" />
+      <e p="Models" t="Include">
+        <e p="Database" t="Include">
+          <e p="GRTHDbContext.cs" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="data.sql" t="Include" />
+            <e p="skeleton.sql" t="Include" />
+          </e>
+        </e>
+        <e p="Member.cs" t="Include" />
+        <e p="Test.cs" t="Include" />
+      </e>
       <e p="node_modules/@types" t="IncludeRecursive">
         <e p="webpack-env" t="IncludeRecursive" />
       </e>
@@ -89,10 +107,20 @@
       <e p="webpack.config.js" t="Include" />
       <e p="webpack.config.vendor.js" t="Include" />
       <e p="wwwroot" t="Include">
+        <e p="dist" t="Include">
+          <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
+          <e p="main.js" t="Include" />
+          <e p="main.js.map" t="Include" />
+          <e p="vendor-manifest.json" t="Include" />
+          <e p="vendor.css" t="Include" />
+          <e p="vendor.js" t="Include" />
+        </e>
         <e p="favicon.ico" t="Include" />
       </e>
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
   </component>
 </project>
