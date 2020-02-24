@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_.19.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
@@ -39,16 +37,16 @@
         <e p="HomeController.cs" t="Include" />
         <e p="SampleDataController.cs" t="Include" />
       </e>
-      <e p="document" t="Include">
-        <e p="doc_project.txt" t="Include" />
-        <e p="habitationTP.mdj" t="Include" />
-      </e>
       <e p="Docker" t="Include">
         <e p="docker-compose.yml" t="Include" />
         <e p="Scripts" t="Include">
           <e p="start_db.sh" t="Include" />
           <e p="stop_db.sh" t="Include" />
         </e>
+      </e>
+      <e p="document" t="Include">
+        <e p="doc_project.txt" t="Include" />
+        <e p="habitationTP.mdj" t="Include" />
       </e>
       <e p="GRTHabitation.csproj" t="IncludeRecursive" />
       <e p="Models" t="Include">
@@ -77,6 +75,34 @@
       <e p="node_modules/jquery" t="IncludeRecursive" />
       <e p="node_modules/reflect-metadata" t="IncludeRecursive" />
       <e p="node_modules/style-loader" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.dom.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.dom.iterable.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2015.collection.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2015.core.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2015.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2015.generator.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2015.iterable.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2015.promise.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2015.proxy.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2015.reflect.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2015.symbol.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2016.array.include.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2016.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2016.full.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2017.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2017.full.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2017.object.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es2017.string.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es5.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.es6.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.esnext.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.esnext.full.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.scripthost.d.ts" t="IncludeRecursive" />
+      <e p="node_modules/typescript/lib/lib.webworker.d.ts" t="IncludeRecursive" />
       <e p="node_modules/url-loader" t="IncludeRecursive" />
       <e p="node_modules/vue" t="IncludeRecursive" />
       <e p="node_modules/vue-class-component" t="IncludeRecursive" />
@@ -124,9 +150,7 @@
         <e p="favicon.ico" t="Include" />
       </e>
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_.19.00" t="ExcludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_.19.00" t="ExcludeRecursive" />
   </component>
 </project>
