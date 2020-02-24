@@ -1,0 +1,3 @@
+-- INSTALL TEMPLATE --
+dotnet new --install Microsoft.AspNetCore.SpaTemplates::2.0.7
+npm install
