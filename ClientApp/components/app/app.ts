@@ -8,3 +8,5 @@ import { Component } from 'vue-property-decorator';
 })
 export default class AppComponent extends Vue {
 }
+
+//CECI est un commentaire pour tester push
