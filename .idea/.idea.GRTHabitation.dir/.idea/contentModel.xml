@@ -53,13 +53,21 @@
       <e p="GRTHabitation.csproj" t="IncludeRecursive" />
       <e p="Models" t="Include">
         <e p="Database" t="Include">
+          <e p="EntityObjects" t="Include">
+            <e p="Applicant.cs" t="Include" />
+            <e p="Housing.cs" t="Include" />
+            <e p="Image.cs" t="Include" />
+            <e p="Member.cs" t="Include" />
+            <e p="Owner.cs" t="Include" />
+            <e p="Qualification.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+          </e>
           <e p="GRTHDbContext.cs" t="Include" />
           <e p="Scripts" t="Include">
             <e p="data.sql" t="Include" />
             <e p="skeleton.sql" t="Include" />
           </e>
         </e>
-        <e p="Member.cs" t="Include" />
         <e p="Test.cs" t="Include" />
       </e>
       <e p="node_modules/@types" t="IncludeRecursive">
@@ -124,5 +132,9 @@
         <e p="favicon.ico" t="Include" />
       </e>
     </e>
+    <e p="$PROJECT_DIR$/../Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$/../Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
   </component>
 </project>

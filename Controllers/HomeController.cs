@@ -17,7 +17,7 @@ namespace GRTHabitation.Controllers
         [HttpGet][Route("test")]
         public IActionResult Test()
         {
-            return View("Error");
+            return View("Index");
         }
 
         public IActionResult Error()
