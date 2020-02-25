@@ -14,6 +14,12 @@ namespace GRTHabitation.Controllers
             return View();
         }
 
+        [HttpGet][Route("test")]
+        public IActionResult Test()
+        {
+            return View("Error");
+        }
+
         public IActionResult Error()
         {
             ViewData["RequestId"] = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
