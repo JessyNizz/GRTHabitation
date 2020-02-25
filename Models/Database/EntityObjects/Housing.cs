@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace GRTHabitation.Models.Database.EntityObjects
 {
     
-    [Table("HousingTypeSought")]
-    public class HousingTypeSought
+    [Table("Housing")]
+    public class Housing
     {
         
         public int Id { get; set; }

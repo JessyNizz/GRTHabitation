@@ -53,12 +53,11 @@
         <e p="Database" t="Include">
           <e p="EntityObjects" t="Include">
             <e p="Applicant.cs" t="Include" />
-            <e p="HousingTypeSought.cs" t="Include" />
+            <e p="Housing.cs" t="Include" />
             <e p="Image.cs" t="Include" />
             <e p="Member.cs" t="Include" />
             <e p="Owner.cs" t="Include" />
             <e p="Qualification.cs" t="Include" />
-            <e p="Twinning.cs" t="Include" />
             <e p="User.cs" t="Include" />
           </e>
           <e p="GRTHDbContext.cs" t="Include" />
