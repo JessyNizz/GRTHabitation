@@ -6,15 +6,21 @@ namespace GRTHabitation.Models.Database
     
     public class GRTHDbContext : DbContext {
         
+        private const string Server = "127.0.0.1";
+        private const string  Port = "5432";
+        private const string  Name = "GRTH";
+        private const string  User = "etudiant";
+        private const string  Password = "Etudiant1";
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            const string server = "127.0.0.1";
-            const string  port = "5432";
-            const string  name = "GRTH";
-            const string  user = "etudiant";
-            const string  password = "Etudiant1";
             optionsBuilder.UseNpgsql(
-                $"Host={server};Port={port};Database={name};Username={user};Password={password}"
+                $"Host={Server};" +
+                $"Port={Port};" +
+                $"Database={Name};" +
+                $"Username={User};" +
+                $"Password={Password};" +
+                $"Trusted_Connection=True;"
             );
         }
 

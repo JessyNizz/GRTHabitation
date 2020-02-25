@@ -47,8 +47,14 @@
       <e p="document" t="Include">
         <e p="doc_project.txt" t="Include" />
         <e p="habitationTP.mdj" t="Include" />
+        <e p="migrations-commands.txt" t="Include" />
       </e>
       <e p="GRTHabitation.csproj" t="IncludeRecursive" />
+      <e p="Migrations" t="Include">
+        <e p="20200225170426_GRTH.cs" t="Include" />
+        <e p="20200225170426_GRTH.Designer.cs" t="Include" />
+        <e p="GRTHDbContextModelSnapshot.cs" t="Include" />
+      </e>
       <e p="Models" t="Include">
         <e p="Database" t="Include">
           <e p="EntityObjects" t="Include">
