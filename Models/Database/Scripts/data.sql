@@ -1,25 +1,37 @@
-INSERT INTO "User"("Id", "FolderNumber", "Address", "City", "PostalCode", "Password") VALUES
-(1, '1234', '3000 Boulevard de Tracy QC', 'Sorel-Tracy', 'J3R 5B9', 'Omega123'),
-(2, '4321', '125 Rue du Roi QC', 'Contrecoeur', 'J3P 4N2', 'Omega123')
+INSERT INTO "Member"("FirstName", "LastName", "Email", "Type", "PhoneNumber", "BirthDate") VALUES
+('Bryan', 'Gasse', 'bryan@fake.com', 'User', '4507431234', '2000-01-01'),
+('Dave', 'Beauchesne', 'dave@fake.com', 'User', '4507421234', '1980-01-02'),
+('Charles', 'Bres', 'charles@fake.com', 'User', '4508801234', '1998-03-02'),
+('Marc', 'Doyon', null, 'Child', null, '2003-01-01'),
+('John', 'Deschenes', 'john@fake.com','Partner', '4505170001', '1957-04-05'),
+('Simon', 'Dufault', 'simon@fake.com', 'Partner', '4508811234', '1999-02-04')
 ;
 
-INSERT INTO "Applicant"("Id", "HousingTypeSought", "FamilyIncome", "HaveAnimals", "HaveLease") VALUES
-(1, 'idk', 43123.40, true, false)
+INSERT INTO "User" ("Id", "FolderNumber", "Address", "City", "PostalCode", "Password") VALUES 
+(1, 1234, '1234 Victoria', 'Sorel-Tracy', 'J3P1W3', 'Etudiant1'),
+(2, 1235, '1235 Victoria', 'Sorel-Tracy', 'J3P1W3', 'Etudiant1'),
+(3, 1236, '1236 Victoria', 'Sorel-Tracy', 'J3P1W3', 'Etudiant1')
 ;
 
-INSERT INTO "Member"("Id", "FirstName", "LastName", "Email", "Type", "PhoneNumber", "BirthDate", "ApplicantId") VALUES
-(1, 'Bob', 'Lewis', 'boblewis@gmail.com', 'User', '4507426651', '2001-09-28', NULL),
-(2, 'Alex', 'Dufour', 'alexdufour@gmail.com', 'Child', '4507426651', '2018-04-12', '1'),
-(3, 'George', 'Laroque', 'georgelaroque@gmail.com', 'User', '4507413151', '2002-01-18', NULL)
+INSERT INTO "Applicant" ("Id", "HousingTypeSought", "FamilyIncome", "HaveAnimals", "HaveLease") VALUES 
+(2, '5.5', 80000, false, false),
+(3, '3.5', 50000, true, false)
 ;
 
-INSERT INTO "Owner"("Id") VALUES
-('0')
+INSERT INTO "Owner" ("Id") VALUES 
+(1)
 ;
 
-INSERT INTO "Housing"(
-    "Id", "OwnerId", "ContactId", "Address", "Sector", "SchoolArea", "RoomCount", "ParkingCount", "Level", "AllowAnimals",
-    "Heated", "Enlightened", "SemiFurnished", "FirstRentFree", "RentCost", "EnergyCost", "Note", "ElectronicSignature"
-) VALUES
-('0', '1')
+INSERT INTO "Family" ("MemberId", "ApplicantId") VALUES 
+(4, 2),
+(5, 2),
+(6, 3)
+;
+
+INSERT INTO "Housing" ("OwnerId", "ContactId", "Address", "Sector", "SchoolArea", "RoomCount", "ParkingCount", "Level", "AllowAnimals", "Heated", "Enlightened", "SemiFurnished", "FirstRentFree", "RentCost", "EnergyCost", "Note", "ElectronicSignature") VALUES 
+(1, 1, '1234 Marie-Victorin', 'Maritime', 'Ptite ecole', 5.5, 2, 1, true, false, false, false, false, 600, 200, '', 'Bryan Gasse')
+;
+
+INSERT INTO "Qualification" ("HousingId", "HaveMoldTraces", "StairSafety", "PeronSafety", "LightningSafety", "DetectorSafety", "Cleanliness", "WindowsQuality", "DoorsQuality", "FittingsQuality", "ToiletQuality", "BathShowerQuality", "GeneralMaintenance", "PestProblem", "FinalScore") VALUES 
+(1, false, '5', '4', '5', '4', '5', '3', '3', '4', '4', '4', '5', false, 46)
 ;
