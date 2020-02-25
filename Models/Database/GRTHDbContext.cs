@@ -19,8 +19,7 @@ namespace GRTHabitation.Models.Database
                 $"Port={Port};" +
                 $"Database={Name};" +
                 $"Username={User};" +
-                $"Password={Password};" +
-                $"Trusted_Connection=True;"
+                $"Password={Password};"
             );
         }
 
